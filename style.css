@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Rubik:wght@300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Belleza", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+.nav-toggle{
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.side-bar{
+    background-color: #2a1143;
+    position: absolute;
+    width: 300px;
+    height: 100vh;
+    padding: 20px;
+    transform: translate(0%);
+    transition: transform 0.3s linear 0s;
+}
+.show_sidebar{
+    transform: translate(-100%) !important;
+}
+.links{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.links li a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.social-links{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 40px;
+}
+.social-links li{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px;
+}
+.social-links li a{
+    color: blueviolet;
+}
